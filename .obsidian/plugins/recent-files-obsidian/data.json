@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Real Analysis",
+      "path": "real analysis/Real Analysis.md"
+    },
+    {
+      "basename": "cryptographic attacks",
+      "path": "cryptography/cryptographic attacks/cryptographic attacks.md"
+    },
+    {
+      "basename": "ciphertext only attack",
+      "path": "cryptography/cryptographic attacks/ciphertext only attack.md"
+    },
+    {
+      "basename": "cryptocurrency",
+      "path": "cryptography/cryptocurrency/cryptocurrency.md"
+    },
+    {
+      "basename": "Burp Suite",
+      "path": "tools/hacking/web app/Burp Suite/Burp Suite.md"
+    },
+    {
       "basename": "Differential Equations",
       "path": "courses/Engineering Foundation/Differential Equations.md"
     },
     {
       "basename": "LaTeX",
       "path": "note taking/LaTeX/LaTeX.md"
-    },
-    {
-      "basename": "Real Analysis",
-      "path": "real analysis/Real Analysis.md"
     },
     {
       "basename": "web development",
