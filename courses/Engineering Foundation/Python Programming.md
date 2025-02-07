@@ -68,14 +68,14 @@ left(90); forward(100; forward(50)
 ## 2. Python IDLE as a Calculator
 
 
-> Links:  [3. Python Programming – Basics](../UoM/Python%20for%20Beginners/3.%20Python%20Programming%20–%20Basics.md)
+> Links:  [3. Python Programming – Basics](../UoM/UoM%20Open/Python%20for%20Beginners/3.%20Python%20Programming%20–%20Basics.md)
 > Sources: [Python 2 English Python IDLE as a Calculator](https://www.youtube.com/watch?v=hul3niTcHBY) [Download Python](https://www.python.org/downloads/?authuser=0) [Download QPython for Mobile](https://play.google.com/store/apps/details?id=org.qpython.qpy3&hl=en&gl=US&pli=1)
 
 ![Day_02_Getting started](assets/documents/Day_02_Getting%20started.pdf)
 
 An Integrated Development Environment (IDE) is useful when programming. Python comes with an IDE called IDLE. 
 
-For details about arithmetic operations, refer to [3. Python Programming – Basics](../UoM/Python%20for%20Beginners/3.%20Python%20Programming%20–%20Basics.md).
+For details about arithmetic operations, refer to [3. Python Programming – Basics](../UoM/UoM%20Open/Python%20for%20Beginners/3.%20Python%20Programming%20–%20Basics.md).
 
 You can use `e` to denote `*10**` for numbers.
 E.g:
@@ -105,14 +105,14 @@ When importing libraries, there are several ways to do it.
 
 ## Variables and Comments
 
-> Links: [3. Python Programming – Basics](../UoM/Python%20for%20Beginners/3.%20Python%20Programming%20–%20Basics.md)
+> Links: [3. Python Programming – Basics](../UoM/UoM%20Open/Python%20for%20Beginners/3.%20Python%20Programming%20–%20Basics.md)
 > Sources: [Python 3 - Variables and Comments ( Mixed -2021)](https://www.youtube.com/watch?v=88s4hjWf_lE)
 
 In python, anything after a `#` is considered as a comment.
 
 If the `#` is inside a string, such as `print('#Hello, World!)` it is not considered as a comment.
 
-For more about variables, refer to [3. Python Programming – Basics](../UoM/Python%20for%20Beginners/3.%20Python%20Programming%20–%20Basics.md).
+For more about variables, refer to [3. Python Programming – Basics](../UoM/UoM%20Open/Python%20for%20Beginners/3.%20Python%20Programming%20–%20Basics.md).
 
 - A variable can be deleted using `del variable`.
 - `=` is the assignment operator which assigns values to variables.
