@@ -31,7 +31,10 @@
     "Asanka",
     "Tutes",
     "Colab",
-    "Hons"
+    "Hons",
+    "HackerRank",
+    "IndentationError",
+    "SyntaxError"
   ],
   "newFileLocation": "current",
   "newLinkFormat": "relative",
