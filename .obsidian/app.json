@@ -34,7 +34,8 @@
     "Hons",
     "HackerRank",
     "IndentationError",
-    "SyntaxError"
+    "SyntaxError",
+    "expections"
   ],
   "newFileLocation": "current",
   "newLinkFormat": "relative",

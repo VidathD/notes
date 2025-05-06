@@ -5,6 +5,7 @@
   "shouldAutoCheck": true,
   "autoCheckDelay": 3000,
   "pickyMode": true,
-  "staticLanguage": "en-GB",
-  "ruleOtherDisabledRules": "PASSIVE_VOICE,REP_PASSIVE_VOICE"
+  "staticLanguage": "auto",
+  "ruleOtherDisabledRules": "PASSIVE_VOICE,REP_PASSIVE_VOICE",
+  "englishVeriety": "en-GB"
 }
