@@ -7,7 +7,9 @@
 > Links: [Wealth Management Course](Wealth%20Management%20Course.md)
 > Sources:
 
+---
 
+![Budget Excel Sheet](assets/documents/budget.xlsx)![Slides](assets/documents/managing%20personal%20finance%20slides.pptx)
 ## What is Personal Finance
 
 - First find where are you now. You can perform a SWOT analysis. Also figure out how much money you have. 
@@ -98,7 +100,12 @@ Increase passive income sources
 ## Financial Planning Process
 
 - Create SMART goals and stick to them
-- Create and stick to a budget
+- Create and stick to a budget. There are several uses of budgeting.
+    - Financial control and management
+    - Goal achievement
+    - Identifying wasteful spending
+    - Emergency preparedness
+    - Debt reduction
 - Have the 3Cs
     - Commitment
     - Control
@@ -154,3 +161,55 @@ Basically just put as much as you can and leave it.
 
 - The monetary value of assets we own is the wealth. Add up all we own and subtract all we owe.
 - Own - Owe = Wealth
+
+
+## Risk Management
+
+Everyone has different risk tolerances and all investments carry risks. Be comfortable with your investments. 
+
+Generally, greater the risk, greater the return. This is to compensate for the uncertainty.
+
+The risk appetite can depend on, 
+- Financial goals
+- Time horizon
+- Financial risk tolerance
+
+### Types of Risks
+
+1. Risk of Default (Bankrupt)
+2. Risk of Capital Loss (Value going down)
+3. Risk of Inflation (Value of money go down)
+4. Risk of Liquidity (Can't take the money out quickly)
+
+
+## Money Vs Debit vs Credit card
+
+Credit cards represent a loan. The card is just a way to access a line of credit.
+
+Debit card is a way to spend checkable deposits (money you already have), just like a paper check.
+
+### Advantages and Disadvantages of Credit Cards
+
+**Advantages:**
+- Pre-approved loan
+- Widely accepted
+- Some consumer protection
+- Can establish credit history
+
+**Disadvantages:**
+- Requires discipline from borrower
+- Can have high fees and interest
+- Identity theft
+
+Usually it is a good decision to take credit for,
+- Education
+- Housing
+- Transport
+- Necessities
+
+This is because credit allows you to access a service or product immediately rather than saving up in the future.
+
+
+## Types of Investors
+
+![BB and K Investor Classification](assets/images/BB%20and%20K%20Investor%20Classification.jpg)
