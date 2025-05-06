@@ -62,3 +62,78 @@ In this book, there is a fundamental distinction between *investment* and *specu
 
 - When the demand for a stock is higher, the price goes up.
 - When the supply of a stock is high, the price goes down.
+
+
+## The Two Types of Return in Stock Market
+
+### Capital Gain
+
+The gap between the amount a stock is bought for and sold for, if it is a profit is capital gain.
+
+### Dividend Payment
+
+Stable companies pay a part of their profit to the shareholders. This is dividend payment.
+
+$$
+\text{Dividend Yield} = \frac{\text{Annual dividends per share}}{\text{Current share price}} \times 100\%
+$$
+
+## Dos and Don'ts of the Stock Market
+
+### Dos
+
+1. Have discipline
+    - Prices fluctuate. Don't panic. Collect value counters.
+    - Learn how to look at company valuations
+2. Macro environment analysis
+3. Portfolio diversification
+4. Individual company self-analysis
+5. Demand and supply
+6. Read investment books
+7. Watch investment videos/movies
+8. Talk to a mentor
+
+### Don'ts
+
+1. Follow a friend and buy stocks.
+2. Follow social media and buy stocks.
+3. Follow bull/herd mentality.
+4. More speculation
+5. Buy stocks without knowing company financials.
+6. Buy on stories.
+
+**You can use S&P 20 for long term stable investments.**
+
+
+## How to Select the Best Stocks to Invest
+
+Look at,
+1. Net Assets Per Share/Net Asset Value (NAV)
+2. Price/Earnings Ratio (P/E Ratio)
+3. Dividend Yield
+
+If possible, also consider other investor ratios.
+- Profit Margins
+- Earnings Per Share (EPS)
+- Price to Book Value (PBV)
+- Gearing Ratio
+- Return on Equity
+- Dividend Yield
+
+### Net Assets Per Share/Net Asset Value (NAV)
+
+$$\text{Net Asset Value}=\frac{\text{Fund Assets}-\text{Fund Liabilities}}{\text{Total number of outstanding shares}}$$
+
+- Buy stocks below NAV (Undervalued)
+
+
+### P/E Ratio
+
+$$\text{P/E Ratio}=\frac{\text{Market Share Price}}{\text{Earnings Per Share (EPS)}}$$
+
+Invest in companies with a P/E ratio below the market P/E and sector P/E.
+
+A high P/E ratio indicates that it is overvalued or that high growth is expected.
+
+**Companies that are losing money or have no earnings don't have a P/E ratio since there is nothing to put to the denominator.**
+
