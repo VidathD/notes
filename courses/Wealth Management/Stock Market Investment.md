@@ -27,6 +27,7 @@ In this book, there is a fundamental distinction between *investment* and *specu
 
 **No. 1 Rule of Investing:** Never lose money. (Know the risks.)
 
+- Invest $(100-\text{Your Age})\%$ of your income in stocks. Invest 80% in strong fundamental stocks and 20% in trading (If you really want to).
 - Don't buy a stock just because you like the product. Do an analysis of financial statements to protect yourself from risky investments.
 - Each company selected should be large, prominent, and conservatively financed, with a long record of continuous dividend payment.
 - Use your understanding of certain industries when investing to “outperform the experts.”
@@ -124,7 +125,7 @@ If possible, also consider other investor ratios.
 
 $$\text{Net Asset Value}=\frac{\text{Fund Assets}-\text{Fund Liabilities}}{\text{Total number of outstanding shares}}$$
 
-- Buy stocks below NAV (Undervalued)
+- Buy stocks below NAV (Undervalued).
 
 
 ### P/E Ratio
@@ -141,6 +142,8 @@ A high P/E ratio indicates that it is overvalued or that high growth is expected
 ### Earnings per Share (EPS)
 
 $$\text{EPS}=\frac{\text{Total Earnings}}{\text{Number of Shares}}$$
+
+Higher, the better.
 
 
 ## Sectors in CSE
@@ -172,5 +175,16 @@ There are 3 key financial statements.
 
 You can obtain these from [CSE website](www.cse.lk)
 
-### Income Statement
 
+## Types of Portfolios
+
+
+![Conservative portfolio](assets/images/conservative%20portfolio.jpg)
+
+![Moderately conservative portfolio](assets/images/moderately%20conservative%20portfolio.png)
+
+![Aggressive portfoilio](assets/images/aggressive%20portfolio.jpg)
+
+![Moderately aggressive portfolio](assets/images/moderately%20aggressive%20portfolio.png)
+
+![Very aggressive portfolio](assets/images/very%20aggressive%20portfolio.png)
