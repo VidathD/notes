@@ -137,3 +137,4 @@ A high P/E ratio indicates that it is overvalued or that high growth is expected
 
 **Companies that are losing money or have no earnings don't have a P/E ratio since there is nothing to put to the denominator.**
 
+
