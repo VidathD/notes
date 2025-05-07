@@ -115,12 +115,12 @@ Look at,
 If possible, also consider other investor ratios.
 - Profit Margins
 - Earnings Per Share (EPS)
-- Price to Book Value (PBV)
+- Price to Book Value (PBV) - Buy if <1
 - Gearing Ratio
 - Return on Equity
 - Dividend Yield
 
-### Net Assets Per Share/Net Asset Value (NAV)
+### Net Assets Per Share(NAPS)/Net Asset Value (NAV)
 
 $$\text{Net Asset Value}=\frac{\text{Fund Assets}-\text{Fund Liabilities}}{\text{Total number of outstanding shares}}$$
 
@@ -137,4 +137,40 @@ A high P/E ratio indicates that it is overvalued or that high growth is expected
 
 **Companies that are losing money or have no earnings don't have a P/E ratio since there is nothing to put to the denominator.**
 
+
+### Earnings per Share (EPS)
+
+$$\text{EPS}=\frac{\text{Total Earnings}}{\text{Number of Shares}}$$
+
+
+## Sectors in CSE
+
+There are 20 main sectors in the CSE. It is recommended to diversify the sectors when investing.
+
+
+## Effect of Government Policies
+
+When interest rates increase, people invest in FDs and the stock market falls. So invest at high interest rates and sell when the price of stocks rises with low interest rates.
+
+## Important Macroeconomic Indicators that Influence the Stock Market
+
+1. GDP growth rate
+2. Behaviour of monsoons and performance of agriculture.
+3. Trends in public investments and savings
+4. Monetary and fiscal (government revenue/tax) policy. 
+5. Economic and political stability
+6. Inflation
+7. Infrastructural facilities and arrangements.
+
+
+## Analysis of Key Financial Statements
+
+There are 3 key financial statements.
+- Income statement (Performance)
+- Balance sheets (Position)
+- Cash flow statements (Cash strength)
+
+You can obtain these from [CSE website](www.cse.lk)
+
+### Income Statement
 
