@@ -7,6 +7,10 @@
 
 ---
 
+[100 ways to make money online](assets/documents/100%20ways%20to%20make%20money%20online.pdf)
+
+![hyperinflation](assets/documents/hyperinflation.pptx)
+
 Inflation is a continuous increase in price of goods and services for two consecutive quarters.
 
 Hyperinflation is defined as an economic phenomenon where due to rapid inflation, the currency becomes virtually worthless.
