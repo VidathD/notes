@@ -7,6 +7,7 @@
 
 ---
 
+![Portfolio Excel Sheet](assets/documents/portfolio.xlsx)
 ## What is Stock Market and Shares?
 
 A collection of markets and exchanges where shares of publicly-held companies are bought, sold and issued. 
