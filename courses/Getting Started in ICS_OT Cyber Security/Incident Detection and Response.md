@@ -1,0 +1,8 @@
+# Incident Detection and Response
+
+> Vidath Dissanayake | Sri Lanka  
+> Links: [Getting Started in ICS_OT Cyber Security](Getting%20Started%20in%20ICS_OT%20Cyber%20Security.md)
+> Sources: 
+
+---
+
