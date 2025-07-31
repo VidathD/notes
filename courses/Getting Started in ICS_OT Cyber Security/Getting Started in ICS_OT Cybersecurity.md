@@ -1,4 +1,4 @@
-# Getting Started in ICS/OT Cyber Security
+# Getting Started in ICS/OT Cybersecurity
 
 > Vidath Dissanayake | Sri Lanka  
 > Links: [courses](../courses.md) [IoT](../../IoT/IoT.md)
@@ -11,7 +11,7 @@ This is a 20+ hour course provided by [Mike Holcomb](https://www.linkedin.com/in
 There are 8 units in this course.
 
 1. Introduction
-2. [ICS/OT Cyber Security Overview](ICS_OT%20Cyber%20Security%20Overview.md)
+2. [ICS/OT Cybersecurity Overview](ICS_OT%20Cybersecurity%20Overview.md)
 3. [Control Systems and Protocols](Control%20Systems%20and%20Protocols.md)
 4. [Secure Network Architecture](Secure%20Network%20Architecture.md)
 5. [Asset Registers/Control Systems Inventory](Asset%20Registers_Control%20Systems%20Inventory.md)

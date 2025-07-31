@@ -1,8 +1,8 @@
-# ICS/OT Cyber Security Overview
+# ICS/OT Cybersecurity Overview
 
 > Vidath Dissanayake | Sri Lanka  
-> Links: [Getting Started in ICS_OT Cyber Security](Getting%20Started%20in%20ICS_OT%20Cyber%20Security.md)
-> Sources: [course video 2](https://www.youtube.com/watch?v=Ue8JjQigv-4&list=PLOSJSv0hbPZAlINIh1HcB0L8AZcSPc80g&index=2) [Stuxnet](https://en.wikipedia.org/wiki/Stuxnet) 
+> Links: [Getting Started in ICS_OT Cybersecurity](Getting%20Started%20in%20ICS_OT%20Cybersecurity.md)
+> Sources: [course video 2](https://www.youtube.com/watch?v=Ue8JjQigv-4&list=PLOSJSv0hbPZAlINIh1HcB0L8AZcSPc80g&index=2) [Stuxnet](https://en.wikipedia.org/wiki/Stuxnet) [ISA 62443](https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards)
 
 ---
 
@@ -23,7 +23,7 @@ In OT, safety is the primary consideration. Safety primarily includes safety of 
 - environmental safety
 - availability
 
-In IT, the primary consideration is the [CIA triad](../../Cybersecurity/hacking/principles%20and%20standards%20of%20infosec/CIA%20triad/CIA%20triad.md). Here the concern is about digital danger.
+In IT, the primary consideration is the [CIA triad](../../Cybersecurity/hacking/principles%20and%20standards%20of%20infosec/CIA%20triad/CIA%20triad.md). Here the concern is about digital danger. More focus is given to confidentiality and integrity over availability. In OT, availability gets more focus.
 
 Most OT networks these days have a connected IT network. This introduces digital dangers to the system. An attacker that gets into the IT network can gain access to the OT environment and use that as a foothold to do further damage.
 
@@ -86,7 +86,7 @@ There are several sectors that are considered as critical infrastructure and OT 
 
 ---
 
-## What is ICS/OT Cyber Security?
+## What is ICS/OT Cybersecurity?
 
 Focus is on securing ICS/OT systems from cyber threats. These threats can come over the network or from a cyber asset.
 - E.g: PLCs, data historians, engineering workstations, maintenance laptops or tablets, USB drives.
@@ -97,7 +97,7 @@ Physical attacks should be taken into consideration. If an attacker can walk in 
 
 ---
 
-## Annotated History of ICS/OT Cyber Security
+## Annotated History of ICS/OT Cybersecurity
 
 The type of attackers that target ICS/OT systems have changed significantly since about 2021. Before 2021, it was mostly nation state threat actors and APTs that were attacking these kinds of systems (for example, Stuxnet).
 
@@ -114,9 +114,58 @@ that is to say, everyone is targeting these systems. A prime example is the [Col
 These are some notable attacks in the history on ICS/OT.
 
 ![a history of major ICS/OT cyber incidents](assets/images/a%20history%20of%20major%20ICS_OT%20cyber%20incidents.png)
+![notable malware for OT](assets/images/notable%20malware%20for%20OT.png)
 
 ---
 
-## Hybrid Approach to ICS/OT Cyber Security
+## Hybrid Approach to ICS/OT Cybersecurity
 
-## The Sliding Scale of Cyber Security
+[ISA 62443](https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards) is currently the gold standard for ICS/OT cybersecurity. It is a collection of standards to address different aspects of cybersecurity in ICS/OT systems created by ISA 99 Standards Committee. It establishes a common set of rules that asset owners and operators can use to secure their facilities. 
+
+Similar to IT systems, there are some critical security controls that mitigate most of the risk.
+
+![OT critical security controls](assets/images/OT%20critical%20security%20controls.png)
+
+---
+
+## The Sliding Scale of Cybersecurity
+
+In this scale, it is better to do the things at the left first for the best return on investment.
+
+![sliding scale for OT security](assets/images/sliding%20scale%20for%20OT%20security.png)
+![cost of controls in OT](assets/images/cost%20of%20controls%20in%20OT.png)
+
+---
+
+## Terminology
+
+### Inside Battery Limits (ISBL)
+
+ISBL refers to the systems and processes that make up the facility. These directly contribute to production. These can include,
+- turbines
+- generators
+- condensers
+- cooling systems
+- electrical systems
+- industrial control and instrumentation systems
+- reactors
+- distillation columns.
+
+### Outside Battery Limits (OSBL)
+
+OSBL refers to on-site supporting locations and systems that are required for the safe operation of the facility. These can include,
+- administrative buildings (control room, data centre, staff offices)
+- storage facilities
+- wastewater treatment
+- cooling tower
+- water intake.
+
+![ISBL vs OSBL](assets/images/ISBL%20vs%20OSBL.png)
+
+### Greenfield Projects
+
+This is a brand-new facility. It is much easier to implement cybersecurity in a Greenfield facility as it can be a focus from the start.
+
+### Brownfield Projects
+
+This is a redesign or addition to an existing facility. Small changes can have significant and unforeseen effects as these systems are old and complicated or not well implemented. Care should be taken when implementing cybersecurity in such a facility.
