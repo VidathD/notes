@@ -6,3 +6,20 @@
 
 ---
 
+## Control Systems
+
+There are several types of control systems.
+
+### Field Devices
+
+### Programmable Logic Controller (PLC)
+
+### Distributed Communication System (DCS)
+
+### Human Management Interface (HMI)
+
+### Safety Instrumented System (SIS)
+
+### Engineering Workstation (EWS)
+
+### Data Historian
