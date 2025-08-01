@@ -60,7 +60,10 @@
     "ZigBee",
     "IIoT",
     "OSINT",
-    "Assante"
+    "Assante",
+    "nmap",
+    "Nmap",
+    "Zenmap"
   ],
   "newFileLocation": "current",
   "newLinkFormat": "relative",
