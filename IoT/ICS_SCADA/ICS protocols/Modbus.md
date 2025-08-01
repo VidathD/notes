@@ -1,14 +1,14 @@
 # Modbus
 
 > Vidath Dissanayake | Sri Lanka  
-> Links: [IoT protocols](IoT%20protocols.md)
+> Links: [ICS Protocols](ICS%20Protocols.md)
 > Sources: [modbus.org](https://modbus.org) [Getting Started in ICS/OT Cyber Security part 3](https://www.youtube.com/watch?v=WReeJDw-AV4&list=PLOSJSv0hbPZAlINIh1HcB0L8AZcSPc80g&index=3) [Modbus Wikipedia](https://en.wikipedia.org/wiki/Modbus)
 
 ---
 
 Modbus is the most common ICS/OT protocol in use today. It is a royalty-free protocol available at [modbus.org](https://modbus.org). Modbus works over TCP/IP and the default port is TCP 502. 
 
-It works similar to [SNMP](../../network/communication%20protocol/TCP%20IP%20layer%204/OSI%20layer%207/SNMP.md) in the sense that it allows remote reading and writing of system variables in a client-server configuration.
+It works similar to [SNMP](../../../network/communication%20protocol/TCP%20IP%20layer%204/OSI%20layer%207/SNMP.md) in the sense that it allows remote reading and writing of system variables in a client-server configuration.
 - Allows an engineer to make PLC programming changes.
 - Allows a maintenance technician to upgrade the PLCs firmware.
 - Allows an attacker to remotely manipulate the PLC process.

@@ -2,7 +2,7 @@
 
 > Vidath Dissanayake | Sri Lanka  
 > Links: [Getting Started in ICS_OT Cybersecurity](Getting%20Started%20in%20ICS_OT%20Cybersecurity.md)
-> Sources: [Getting Started in ICS/OT Cyber Security part 3](https://www.youtube.com/watch?v=WReeJDw-AV4&list=PLOSJSv0hbPZAlINIh1HcB0L8AZcSPc80g&index=3) [ICS Security Tools](https://github.com/ITI/ICS-Security-Tools)
+> Sources: [Getting Started in ICS/OT Cyber Security part 3](https://www.youtube.com/watch?v=WReeJDw-AV4&list=PLOSJSv0hbPZAlINIh1HcB0L8AZcSPc80g&index=3) [ICS Security Tools](https://github.com/ITI/ICS-Security-Tools) [GRFICSv2](https://github.com/Fortiphyd/GRFICSv2)
 
 ---
 
@@ -145,21 +145,49 @@ There are many other types of control systems. While less common, they can be ve
 
 ## Industrial Control Protocols
 
-In this course we will be using the packet captures at [ICS Security Tools](https://github.com/ITI/ICS-Security-Tools) for analysis.
+In this course we will be using the packet captures at [ICS Security Tools](https://github.com/ITI/ICS-Security-Tools) for analysis. We can also use [GRFICSv2](https://github.com/Fortiphyd/GRFICSv2) to emulate an ICS environment.
 
 ### Modbus
 
-See [Modbus](../../IoT/IoT%20protocols/Modbus.md) for information about this protocol.
+See [Modbus](../../IoT/ICS_SCADA/ICS%20protocols/Modbus.md) for information about this protocol.
 
 ### S7comm
 
-### OPC
+See [S7comm](../../IoT/ICS_SCADA/ICS%20protocols/S7comm.md) for more information about this protocol.
 
 ### OPC UA
 
+Open-source standard created by the OPC Foundation to enable sensor to cloud communication. It has a platform independent and service oriented architecture.
+
+It supports publish-subscribe and client-server models and multiple transport protocols.
+- TCP
+- UDP
+- MQTT
+- AMQP
+- WebSockets
+
+It also includes several security features.
+- Authetication
+- Autherization
+- Encryption
+- Key management
+
 ### Other Industrial Control Protocols
+
+- BACnet
+- Ethernet/IP
+- DNP3
+- Tridium Fox
+- HART
+- PCWorx
+- Omron
+- CODESYS
 
 ---
 
 ## Wireless
 
+Many plants and facilities use wireless protocols without considering the security risk. Some commonly used wireless OT protocols are,
+- 802.11 Wi-Fi
+- ZigBee
+- WirelessHART

@@ -50,7 +50,14 @@
     "HMIs",
     "Trisis",
     "Phasor",
-    "S7comm"
+    "S7comm",
+    "CODESYS",
+    "Omron",
+    "PCWorx",
+    "Tridium",
+    "BACnet",
+    "WirelessHART",
+    "ZigBee"
   ],
   "newFileLocation": "current",
   "newLinkFormat": "relative",
