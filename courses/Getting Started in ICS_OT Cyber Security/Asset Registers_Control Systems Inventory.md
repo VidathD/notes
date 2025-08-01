@@ -2,7 +2,7 @@
 
 > Vidath Dissanayake | Sri Lanka  
 > Links: [Getting Started in ICS_OT Cybersecurity](Getting%20Started%20in%20ICS_OT%20Cybersecurity.md)
-> Sources: [Getting Started in ICS/OT Cyber Security part 5](https://www.youtube.com/watch?v=madBOec2s74&list=PLOSJSv0hbPZAlINIh1HcB0L8AZcSPc80g&index=6)
+> Sources: [Getting Started in ICS/OT Cyber Security part 5](https://www.youtube.com/watch?v=madBOec2s74&list=PLOSJSv0hbPZAlINIh1HcB0L8AZcSPc80g&index=6) [Centre for Internet Security (CIS)](https://cisecurity.org
 
 ---
 
@@ -40,7 +40,7 @@ There are several methods of obtaining data to build an asset register.
 - Review existing data
     - Network diagrams, programming data, project files, procurement info
 - Review network packet captures
-    - Use tools such as [Wireshark](../../tools/hacking/network/packet%20sniffers/wireshark/Wireshark.md) to analyse passively captured network data
+    - Use tools such as [Wireshark](../../tools/hacking/network/packet%20sniffers/Wireshark.md) to analyse passively captured network data
 - Actively scan the environment
     - Tools such as [Nmap](../../tools/hacking/network/scanning/Nmap.md) can be used to send network packets on the network to test for the presence of assets and additional information gathering techniques.
     - **WARNING** Active scanning can be considered harmful in ICS/OT.
@@ -93,11 +93,37 @@ The goal of these scans is to find,
 - Versions
 - Vulnerabilities
 
+##### Passive Scanning
 
+Passive “scanning” listens to network traffic to determine the presence of hosts and services. **There is NO scanning activity.**
 
+Packet capture and parsing tools can be used to dissect network traffic into relevant data to identify live hosts, open ports, services, applications, vendors, versions and more.
 
-## Change Management
+Packet captures can be analysed with [Wireshark](../../tools/hacking/network/packet%20sniffers/Wireshark.md) and other tools to determine live hosts, active ports, services, and applications.
 
-## Monitoring Control System State
+Specific vendors, firmware and software versions, can be discovered under certain conditions.
+
+This requires network visibility for greatest coverage. No visibility implies no discovered assets.
+
+An alternative to Wireshark is [Network Miner](../../tools/hacking/network/packet%20sniffers/Network%20Miner.md). If a file is transferred over the network, it easily saves it for inspection.
+
+---
 
 ## Securing the Asset Register
+
+- System hardening
+    - Hardening guidelines are available at [Centre for Internet Security (CIS)](https://cisecurity.org).
+- Encryption
+- Access controls
+- Physically secure location
+
+---
+
+## Updating the Asset Register
+
+- Establish regular schedule to update the asset register
+    - E.g., monthly, quarterly, annually
+- Ensure change management procedures include updating the asset register as required
+    - Adding assets as they are connected to the plant network
+    - Removing assets as each is removed and/or decommissioned
+- If an asset is discovered on the plant network that is not in the asset register, initiate incident response procedures to determine its origin. Usually these are not malicious but mistakes.
