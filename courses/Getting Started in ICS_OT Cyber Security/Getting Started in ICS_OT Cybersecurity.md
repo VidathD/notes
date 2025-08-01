@@ -18,3 +18,4 @@ There are 8 units in this course.
 6. [Threat and Vulnerability Management](Threat%20and%20Vulnerability%20Management.md)
 7. [OSINT for Industrial Controls](OSINT%20for%20Industrial%20Controls.md)
 8. [Incident Detection and Response](Incident%20Detection%20and%20Response.md)
+9. [Industry Standards and Regulations](Industry%20Standards%20and%20Regulations.md)

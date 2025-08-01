@@ -169,3 +169,10 @@ This is a brand-new facility. It is much easier to implement cybersecurity in a 
 ### Brownfield Projects
 
 This is a redesign or addition to an existing facility. Small changes can have significant and unforeseen effects as these systems are old and complicated or not well implemented. Care should be taken when implementing cybersecurity in such a facility.
+
+
+## Common Ports in ICT/OT
+
+Here are some common ports used in ICS/OT environments.
+
+![common ports in ICS](assets/images/common%20ports%20in%20ICS.png)

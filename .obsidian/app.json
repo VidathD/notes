@@ -57,7 +57,10 @@
     "Tridium",
     "BACnet",
     "WirelessHART",
-    "ZigBee"
+    "ZigBee",
+    "IIoT",
+    "OSINT",
+    "Assante"
   ],
   "newFileLocation": "current",
   "newLinkFormat": "relative",
