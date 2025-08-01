@@ -1,6 +1,7 @@
 # Physical Layer
 
 > Vidath Dissanayake | Sri Lanka
+> Links: [OSI Model](../OSI%20Model/OSI%20Model.md)
 
 This layer is concerned with getting bits on the wire. This is the physical hardware components such as copper wires and fibre optic cables.
 

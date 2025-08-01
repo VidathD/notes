@@ -45,7 +45,12 @@
     "CoAP",
     "Stuxnet",
     "ISBL",
-    "OSBL"
+    "OSBL",
+    "Setpoints",
+    "HMIs",
+    "Trisis",
+    "Phasor",
+    "S7comm"
   ],
   "newFileLocation": "current",
   "newLinkFormat": "relative",

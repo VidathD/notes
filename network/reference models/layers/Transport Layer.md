@@ -1,6 +1,7 @@
 # Transport Layer
 
 > Vidath Dissanayake | Sri Lanka
+> Links [OSI Model](../OSI%20Model/OSI%20Model.md)
 
 This layer is concerned with [network](../../../network.md) connections. There are 2 basic types of connections.
 
