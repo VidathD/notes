@@ -63,7 +63,10 @@
     "Assante",
     "nmap",
     "Nmap",
-    "Zenmap"
+    "Zenmap",
+    "ICSRank",
+    "Shodan",
+    "snmpwalk"
   ],
   "newFileLocation": "current",
   "newLinkFormat": "relative",
