@@ -93,6 +93,8 @@ Michael J. Assante and Rob M. Lee along with SANS created the ICS Cyber Kill Cha
 
 Stage 1 is essentially the same as the usual IT [Cyber Kill Chain](../../Cybersecurity/hacking/principles%20and%20standards%20of%20infosec/Cyber%20Kill%20Chain.md). However, to exploit ICS systems, a second stage is needed as shown.
 
+![SANS ICS kill chain](assets/images/SANS%20ICS%20kill%20chain.png)
+
 ---
 
 ## ISA 62443: Zones and Conduits
