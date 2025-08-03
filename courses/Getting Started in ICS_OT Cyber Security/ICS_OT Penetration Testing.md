@@ -33,5 +33,25 @@
 
 ### Initial Access Techniques
 
+#### Rogue Master
+
 ![rogue master initial access](assets/images/rogue%20master%20initial%20access.png)
 
+#### Wi-Fi Network Access
+
+![wifi initial access 1](assets/images/wifi%20initial%20access%201.png)
+![wifi initial access 2](assets/images/wifi%20initial%20access%202.png)
+
+#### Other Wireless Attacks
+
+![flipperzero1](assets/images/flipperzero1.png)
+![flipperzero2](assets/images/flipperzero2.png)
+![flipperzero3](assets/images/flipperzero3.png)![flipperzero4](assets/images/flipperzero4.png)
+![flipperzero5](assets/images/flipperzero5.png)
+
+---
+
+## Discovery
+
+![ICS pentesting discovery 1](assets/images/ICS%20pentesting%20discovery%201.png)
+![ICS pentesting discovery 2](assets/images/ICS%20pentesting%20discovery%202.png)

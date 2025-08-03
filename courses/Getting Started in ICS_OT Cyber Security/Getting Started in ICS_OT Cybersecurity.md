@@ -19,3 +19,4 @@ There are 8 units in this course.
 7. [OSINT for Industrial Controls](OSINT%20for%20Industrial%20Controls.md)
 8. [Incident Detection and Response](Incident%20Detection%20and%20Response.md)
 9. [Industry Standards and Regulations](Industry%20Standards%20and%20Regulations.md)
+10. [ICS_OT Penetration Testing](ICS_OT%20Penetration%20Testing.md)
