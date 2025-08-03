@@ -167,8 +167,8 @@ It supports publish-subscribe and client-server models and multiple transport pr
 - WebSockets
 
 It also includes several security features.
-- Authetication
-- Autherization
+- Authentication
+- Authorization
 - Encryption
 - Key management
 
