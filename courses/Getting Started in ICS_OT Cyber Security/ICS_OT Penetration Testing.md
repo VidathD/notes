@@ -55,3 +55,69 @@
 
 ![ICS pentesting discovery 1](assets/images/ICS%20pentesting%20discovery%201.png)
 ![ICS pentesting discovery 2](assets/images/ICS%20pentesting%20discovery%202.png)
+
+### Network Connection Enumeration
+
+On Windows, to list network connections,
+```
+netstat -nao
+```
+Can use to find other local devices.
+
+Look at network connection tables available in some PLCs.
+
+Perform a [Nmap](../../tools/hacking/network/scanning/Nmap.md) scan. Use scripts to gain more information.
+
+---
+
+## Collection
+
+![ICS pentesting collection](assets/images/ICS%20pentesting%20collection.png)
+![detect operating mode](assets/images/detect%20operating%20mode.png)
+
+Most PLCs have an app or software that allows discovery of PLCs. These usually provide a lot of information.
+
+---
+
+## Execution
+
+![ICS pentesting execution 1](assets/images/ICS%20pentesting%20execution%201.png)
+![ICS pentesting execution 2](assets/images/ICS%20pentesting%20execution%202.png)
+
+---
+
+## Lateral Movement
+
+![ICS pentesting lateral movement 1](assets/images/ICS%20pentesting%20lateral%20movement%201.png)
+![ICS pentesting lateral movement 2](assets/images/ICS%20pentesting%20lateral%20movement%202.png)
+
+---
+
+## Persistence
+
+![ICS pentesting persistence 1](assets/images/ICS%20pentesting%20persistence%201.png)
+![ICS pentesting persistence 2](assets/images/ICS%20pentesting%20persistence%202.png)
+
+---
+
+## Evasion
+
+![ICS pentesting evasion 1](assets/images/ICS%20pentesting%20evasion%201.png)
+![ICS pentesting evasion 2](assets/images/ICS%20pentesting%20evasion%202.png)
+
+---
+
+## Inhibit Response Functions
+
+This means,
+- loss of control
+- loss of visibility
+- loss of both
+
+![ICS pentesting inhibit response 1](assets/images/ICS%20pentesting%20inhibit%20response%201.png)
+
+---
+
+## Command and Control
+
+![ICS pentesting C2 1](assets/images/ICS%20pentesting%20C2%201.png)
