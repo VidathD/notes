@@ -14,12 +14,12 @@ There are variations of this model with different layer names and different numb
 
 ## Four Layer TCP/IP Model
 
-| Layer | Name                                                                                                  | PDU                                                                                           |
-| ----- | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| 1     | [Network Access Network Interface Link Layer](#Network%20Access%20Network%20Interface%20Link%20Layer) | Bits                                                                                          |
+| Layer | Name                                                                                                  | PDU                                                                                                                                                                                     |
+| ----- | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | [Network Access Network Interface Link Layer](#Network%20Access%20Network%20Interface%20Link%20Layer) | Bits                                                                                                                                                                                    |
 | 2     | [Internet Layer](#Internet%20Layer)                                                                   | Packets([TCP](../../communication%20protocol/TCP%20IP%20layer%203/OSI%20layer%204/TCP.md))/Datagrams([UDP](../../communication%20protocol/TCP%20IP%20layer%203/OSI%20layer%204/UDP.md)) |
-| 3     | [Transport Layer](#Transport%20Layer)                                                                 | Segments                                                                                      |
-| 4     | [Application Layer](#Application%20Layer)                                                             | Data                                                                                          |
+| 3     | [Transport Layer](#Transport%20Layer)                                                                 | Segments                                                                                                                                                                                |
+| 4     | [Application Layer](#Application%20Layer)                                                             | Data                                                                                                                                                                                    |
 
 ### Network Access/Network Interface/Link Layer
 
