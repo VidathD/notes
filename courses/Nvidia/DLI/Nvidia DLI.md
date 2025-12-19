@@ -22,3 +22,4 @@
 5. **Cognitive (or Augmented) Analytics** – **The new 5th one**  
     → _What can the system learn and decide on its own?_
 
+
