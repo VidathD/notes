@@ -76,3 +76,44 @@ cout<<"Enter a string: ";
 getline(cin, s);
 cout<<"You entered: " << s << endl; //This will output the string the user entered.
 ```
+
+## If-Else Conditionals
+
+The basic syntax is as follows
+
+```cpp
+if (condition) {
+    // code runs if condition is true
+} else {
+    // code runs if condition is false
+}
+```
+
+## Loops
+
+There are four main types of loops in C++.
+- For loop — Used when we know the number of times the loop needs to run beforehand.
+- While loop — Used when we do not know how many times the loop needs to run.
+- Do-While loo — Similar to while, but the condition is checked at the end of execution. So loop body will execute at least once.
+- Nested loop — When a loop is inside the body of another loop. In C++, there are 256 levels of nesting.
+
+### For Loop
+
+Basic syntax:
+```cpp
+for (condition)
+{
+// body
+}
+```
+
+Example:
+```cpp
+for (int i=0; i<=10; i++)
+{
+    cout<<i<<endl;
+}
+```
+
+### While Loop
+
