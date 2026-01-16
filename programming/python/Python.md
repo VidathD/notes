@@ -1,8 +1,7 @@
 # Python
 
 > Vidath Dissanayake | Sri Lanka  
-> Tags: #programming #programming/python 
-> Links: 
+> Links: [programming](../programming.md)
 > Sources:  
 
 ---
