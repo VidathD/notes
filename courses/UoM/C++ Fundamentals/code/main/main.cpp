@@ -1,14 +1,18 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+// Creating own namespace
+namespace BookInfo {
     string title = "Harry Potter and the Philosopher's Stone";
     string author = "J.K. Rowling";
     int year = 1997;
+}
 
-    cout << "Book Title: " << title << endl;
-    cout << "Author: " << author << endl;
-    cout << "Published Year:" << year << endl;
+int main() {
+    // Access variables inside the namespace
+    cout << "Book Title: " << BookInfo::title << endl;
+    cout << "Author: " << BookInfo::author << endl;
+    cout << "Published Year:" << BookInfo::year << endl;
 
     return 0;
 }
