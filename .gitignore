@@ -1,7 +1,6 @@
 .obsidian/workspace.json
 .obsidian/plugins/recent-files-obsidian/data.json
-courses/UoM/C++ Fundamentals/code/main/main.exe
-courses/UoM/C++ Fundamentals/code/main/main.ilk
-courses/UoM/C++ Fundamentals/code/main/main.obj
-courses/UoM/C++ Fundamentals/code/main/main.pdb
-courses/UoM/C++ Fundamentals/code/main/vc140.pdb
+*.exe
+*.ilk
+*.obj
+*.pdb
