@@ -16,8 +16,15 @@ Memory management is controlled by the operating system and the programming lang
 - JIT optimizations (Escape Analysis and stack optimizations for objects on heap).
 
 Key activities of memory management are:
-- Memory allocation
+- Memory allocation 
 - Memory deallocation
-- Garbage collection
+- Garbage collection (Releasing memory if not manually done)
 - Use of pointers for memory access
-- Ensuring memory safety
+- Ensuring memory safety (Not allowing two programs to access same memory unless they are sharing)
+
+**Note:** The OS allocates a block of memory for the program when requested at the start of the execution. After that, it is up to the language and run-time environment to use it according to the needs of the program.
+
+
+## Memory Allocation Techniques
+
+Memory can be allocated statically, at compile time (look at program and allocate memory) or dynamically, at runtime (program asks for memory).
