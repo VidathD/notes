@@ -244,3 +244,100 @@ public class Main {
 
 ### Part C
 
+```java
+class PrintJob {  
+    private int jobId;  
+  
+    public PrintJob(int jobId, String fileType) throws TypeNotSupportedException {  
+        if (!(fileType.equalsIgnoreCase("pdf") || fileType.equalsIgnoreCase("txt"))) {  
+            throw new TypeNotSupportedException("File type '" + fileType + "' is not supported by printers.");  
+        }  
+        this.jobId = jobId;  
+    }  
+  
+    public int getJobId() {  
+        return jobId;  
+    }  
+}
+
+class Computer implements Runnable {  
+    private SharedQueue sharedqueue;  
+    private int currentPrintJobId;  
+    private int id;  
+  
+    public Computer(SharedQueue sharedqueue, int id) {  
+        this.sharedqueue = sharedqueue;  
+        this.currentPrintJobId = 0;  
+        this.id = id;  
+    }  
+  
+    @Override  
+    public void run() {  
+        try {  
+            while (true) {  
+                // Simulating print document creation  
+                Thread.sleep(1000);  
+                // Simulating alternate extensions to test exception handling safely  
+                String ext="pdf";  
+                if (currentPrintJobId % 5 == 0){  
+                    ext="exe";  
+                }  
+                try {  
+                    PrintJob printjob = new PrintJob(id + currentPrintJobId, ext);  
+                    sharedqueue.addPrintJobs(printjob);  
+                } catch (TypeNotSupportedException e) {  
+                    System.err.println("Computer " + id + " failed to create print job: " + e.getMessage());  
+                }  
+                currentPrintJobId++;  
+            }  
+        } catch (InterruptedException e) {  
+            Thread.currentThread().interrupt();  
+        }  
+    }  
+}
+```
+
+### Part D
+
+1. True
+2. True
+3. False
+4. True
+5. True
+
+
+## Question 4
+
+### Part A
+
+1. Adapter
+2. Decorator
+3. State
+4. Proxy
+5. Facade
+6. Template Method
+7. Factory Method
+8. Singleton
+9. Composite
+10. Strategy
+11. Iterator
+12. Command
+13. Observer
+
+### Part B
+
+1. Builder
+    - Builder decouples the step by step construction of an object from its representation. This allows clean construction of combinations including only the parts that are necessary of the meal.
+
+2. Command
+    - Command pattern encapsulates the order ensuring the waiter doesn't know the content of the order. Here the client acts as the client, the order as the command, waiter as the invoker and the chef as the receiver.
+
+3. Observer
+    - Observer provides a one-to-many relationship where the observer, in this case the server, listens for a change and notifies all the clients.
+
+4. Decorator
+    - Since each topping is represented by a different class, we can use them as decorators to add one or more toppings to the base ice cream. Here each decorator class wraps the ice cream class that is given as input and adds the topping to it.
+
+
+### Part C
+
