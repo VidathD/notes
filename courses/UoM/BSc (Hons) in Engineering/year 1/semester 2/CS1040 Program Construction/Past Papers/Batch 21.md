@@ -29,45 +29,218 @@ The state variables are set to public. However, since there are getters and sett
 ### Part E
 
 ```java
-abstract class menuItem{  
+abstract class MenuItem {  
     private double price;  
-    private int itemID;  
+    private int itemId;  
   
-    public menuItem(double price, int itemID){  
-        this.price=price;  
-        this.itemID=itemID;  
+    public MenuItem(int itemId, double price) {  
+        this.itemId = itemId;  
+        this.price = price;  
     }  
   
-    public void setPrice(double price){  
-        this.price=price;  
+    public void setPrice(double price) {  
+        this.price = price;  
     }  
   
-    public int getItemID(){  
-        return this.itemID;  
+    public int getitemId() {  
+        return this.itemId;  
     }  
   
     // The original code doesn't have a getPrice method, but it seems pretty important so I added it  
-    public double getPrice(){  
+    public double getPrice() {  
         return this.price;  
     }  
   
     public abstract String serve();  
 }  
   
-abstract class foodItem extends menuItem{  
+abstract class FoodItem extends MenuItem {  
     private int shelfLife;  
   
-    public foodItem(double price, int itemID, int shelfLife){  
-        super(price,itemID);  
-        this.shelfLife=shelfLife;  
+    public FoodItem(int itemId, double price, int shelfLife) {  
+        super(itemId, price);  
+        this.shelfLife = shelfLife;  
     }  
   
-    public int getShelfLife(){  
+    public int getShelfLife() {  
         return this.shelfLife;  
     }  
   
-    public String serve(){  
+    @Override  
+    public String serve() {  
         return "I am served on a plate!";  
+    }  
+}  
+  
+interface Caramelisable {  
+    String addCaramel();  
+}  
+  
+class Coffee extends MenuItem implements Caramelisable {  
+    public Coffee(int itemId, double price) {  
+        super(itemId, price);  
+    }  
+  
+    @Override  
+    public String serve() {  
+        return "I am served in a cup!";  
+    }  
+  
+    @Override  
+    public String addCaramel() {  
+        return "I am now a caramel coffee!";  
+    }  
+}  
+  
+class Doughnut extends FoodItem implements Caramelisable {  
+    public Doughnut(int itemId, double price) {  
+        super(itemId, price, 2); // Shelf life 2 days  
+    }  
+  
+    @Override  
+    public String addCaramel() {  
+        return "I am now a caramel doughnut!";  
+    }  
+}  
+  
+class Sandwich extends FoodItem {  
+    public Sandwich(int itemId, double price) {  
+        super(itemId, price, 1); // Shelf life 1 day  
     }  
 }
 ```
+
+## Question 3
+
+### Part A
+
+All
+
+### Part B
+
+```java
+import java.util.ArrayList;  
+import java.util.List;  
+  
+// Print Job Class  
+class PrintJob {  
+    private int jobId;  
+  
+    public PrintJob(int jobId) {  
+        this.jobId = jobId;  
+    }  
+  
+    public int getJobId() {  
+        return jobId;  
+    }  
+}  
+  
+// Shared Queue class  
+class SharedQueue {  
+    private List<PrintJob> printjobs;  
+    private int capacity;  
+  
+    public SharedQueue(int capacity) {  
+        this.capacity = capacity;  
+        this.printjobs = new ArrayList<>();  
+    }  
+  
+    // Method to add print jobs to the shared queue  
+    public synchronized void addPrintJobs(PrintJob printjob) {  
+        while (printjobs.size() == capacity) {  
+            try {  
+                wait();  
+            } catch (InterruptedException e) {  
+                Thread.currentThread().interrupt();  
+            }  
+        }  
+        printjobs.add(printjob);  
+        notifyAll();  
+    }  
+  
+    // Method to get print jobs out of the shared queue to process  
+    public synchronized PrintJob getPrintJob() {  
+        while (printjobs.isEmpty()) {  
+            try {  
+                wait();  
+            } catch (InterruptedException e) {  
+                Thread.currentThread().interrupt();  
+            }  
+        }  
+        PrintJob printjob = printjobs.remove(0);  
+        notifyAll();  
+        return printjob;  
+    }  
+}  
+  
+// The Computer Class  
+class Computer implements Runnable {  
+    private SharedQueue sharedqueue;  
+    private int currentPrintJobId;  
+    private int id;  
+  
+    public Computer(SharedQueue sharedqueue, int id) {  
+        this.sharedqueue = sharedqueue;  
+        this.currentPrintJobId = 0;  
+        this.id = id;  
+    }  
+  
+    @Override  
+    public void run() {  
+        try {  
+            while (true) {  
+                // Simulating print document creation  
+                Thread.sleep(1000);  
+                PrintJob printjob = new PrintJob(id + currentPrintJobId);  
+                currentPrintJobId++;  
+                sharedqueue.addPrintJobs(printjob);  
+            }  
+        } catch (InterruptedException e) {  
+            Thread.currentThread().interrupt();  
+        }  
+    }  
+}  
+  
+// The Printer Class  
+class Printer implements Runnable {  
+    private SharedQueue sharedqueue;  
+    private int id;  
+  
+    public Printer(SharedQueue sharedqueue, int id) {  
+        this.sharedqueue = sharedqueue;  
+        this.id = id;  
+    }  
+  
+    @Override  
+    public void run() {  
+        try {  
+            while (true) {  
+                PrintJob printjob = sharedqueue.getPrintJob();  
+                // Simulating time taken by printer to do the job  
+                System.out.println("Printer " + id + " is processing print job id " + printjob.getJobId());  
+                Thread.sleep(2000);  
+            }  
+        } catch (InterruptedException e) {  
+            Thread.currentThread().interrupt();  
+        }  
+    }  
+}  
+  
+// The Main class  
+public class Main {  
+    public static void main(String[] args) {  
+        // Create a shared queue with a capacity of 5  
+        SharedQueue sharedqueue = new SharedQueue(5);  
+  
+        for (int i = 1; i <= 3; i++) {  
+            new Thread(new Computer(sharedqueue, i)).start();  
+        }  
+        for (int i = 1; i <= 2; i++) {  
+            new Thread(new Printer(sharedqueue, i)).start();  
+        }  
+    }  
+}
+```
+
+### Part C
+
