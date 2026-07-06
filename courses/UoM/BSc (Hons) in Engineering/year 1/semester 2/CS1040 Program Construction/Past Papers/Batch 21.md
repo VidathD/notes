@@ -341,3 +341,4 @@ class Computer implements Runnable {
 
 ### Part C
 
+![21 batch statechart](assets/images/21%20batch%20Statechart.jpg)
