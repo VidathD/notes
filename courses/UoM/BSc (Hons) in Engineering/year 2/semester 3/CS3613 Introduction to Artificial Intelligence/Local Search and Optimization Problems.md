@@ -4,3 +4,5 @@
 
 If got lost while trying to climb a mountain, find the direction where there is a higher point and go there. Repeat. Might get stuck in a local optimum.
 
+All states, including initial are complete states.
+
