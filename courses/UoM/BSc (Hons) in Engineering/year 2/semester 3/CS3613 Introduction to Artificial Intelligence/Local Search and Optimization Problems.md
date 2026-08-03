@@ -6,3 +6,5 @@ If got lost while trying to climb a mountain, find the direction where there is 
 
 All states, including initial are complete states.
 
+In LBS, all searches run parallelly, but the information is shared.
+
