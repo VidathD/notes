@@ -15,3 +15,6 @@ In fully associative, there is only one set.
 ## Cache Organization for Exam
 
 We have to draw a diagram for cache organization. Make sure to name the boxes.
+
+
+**We never map the entire secondary memory to the virtual memory.**
