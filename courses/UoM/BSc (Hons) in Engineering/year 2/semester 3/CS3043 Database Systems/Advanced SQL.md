@@ -12,4 +12,8 @@ When using update command, we do not get a result set. Instead, we get whether t
 
 ### Prepared Statements
 
-Prepared statements protect against [SQLi](../../../../../../Cybersecurity/hacking/attacks%20and%20vulnerabilities/webapp/SQLi/SQLi.md) by treating the dynamic values as literals. Also the query is optimized and cached beforehand, providing a performance boost.
+Prepared statements protect against [SQLi](../../../../../../Cybersecurity/hacking/attacks%20and%20vulnerabilities/webapp/SQLi/SQLi.md) by treating the dynamic values as literals. Also, the query is optimized and cached beforehand, providing a performance boost.
+
+## Authorization
+
+Define a user group that provide minimal access to the database. Hardening is removing all extra access. Create roles, assign permissions to roles and assign users to roles.
