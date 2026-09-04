@@ -18,3 +18,6 @@ We have to draw a diagram for cache organization. Make sure to name the boxes.
 
 
 **We never map the entire secondary memory to the virtual memory.**
+
+![](assets/documents/Memory%20Hierarchy_V.pdf)
+
