@@ -1,18 +1,3 @@
-Viewed triggers.js:1-120
-Viewed triggers.js:121-260
-Viewed triggers.js:261-365
-Viewed write.routes.js:1-160
-Viewed write.routes.js:250-450
-Viewed write.routes.js:451-550
-Viewed write.routes.js:551-650
-Viewed write.routes.js:651-684
-Viewed guest.routes.js:1-100
-Viewed guest.routes.js:300-468
-Viewed guest.routes.js:200-299
-Viewed data.routes.js:1-100
-Ran command: Check views queried in data routes (`grep -n "report_" src/routes/data.routes.js`)
-Viewed init.js:330-475
-
 # Comprehensive Viva Preparation Guide: SkyNest Hotels HRGSMS Backend & Database Systems (CS3043)
 
 This master guide prepares you for your **CS3043 Database Systems** viva. It connects relational database theory (normalization, ACID transactions, locking, integrity constraints) directly to the implementation in SkyNest Hotels HRGSMS.
