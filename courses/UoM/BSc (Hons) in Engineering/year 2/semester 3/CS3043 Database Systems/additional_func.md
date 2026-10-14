@@ -1,17 +1,4 @@
-Viewed seed.js:1-110
-Viewed seed.js:110-220
-Viewed seed.js:220-280
-Viewed write.routes.js:384-430
-Ran command: Check checkIn and checkOut usage in frontend (`grep -rn "checkIn\|checkOut" frontend/src`)
-Viewed CheckInOutPage.tsx:100-160
-Viewed CheckInOutPage.tsx:60-105
-Viewed CheckInOutPage.tsx:190-260
-Viewed CheckInOutPage.tsx:440-519
-Ran command: Check current_status in frontend (`grep -rn "current_status" frontend/src`)
-Ran command: Check if room status is ever updated (`grep -rn "UPDATE.*room\|booking_availability" backend`)
-Checked task Check if room status is ever updated
-
-Here is a thorough compliance check of your current implementation against the **Project 5 (SkyNest Hotels - HRGSMS)** requirements specification:
+# Here is a thorough compliance check of your current implementation against the **Project 5 (SkyNest Hotels - HRGSMS)** requirements specification:
 
 ---
 
